@@ -6,7 +6,7 @@ public class FirstTest {
 
     }
     @Test
-    public void cecondTest(){
+    public void secondTest(){
         System.out.println("it");
     }
 }
