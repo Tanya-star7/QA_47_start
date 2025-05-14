@@ -5,4 +5,8 @@ public class FirstTest {
     public void firstTest(){
 
     }
+    @Test
+    public void cecondTest(){
+        System.out.println("it");
+    }
 }
