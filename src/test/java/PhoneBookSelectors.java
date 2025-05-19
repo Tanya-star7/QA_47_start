@@ -21,10 +21,14 @@ public class PhoneBookSelectors {
         butonLogin.click();
         FirstTest.pause(5);
         WebElement inputEmail=driver.findElement(By.cssSelector("input[placeholder='Email']");
-        inputEmail.click();
-        FirstTest.pause(5);
-        inputName.sendKeys("tatyana.star0107@gmail.com");
+        inputEmail.sendKeys("tatyana.star0107@gmail.com");
         FirstTest.pause(2);
+        WebElement inputPussWorld=driver.findElement(By.cssSelector("input[name='password']");
+        inputPussWorld.sendKeys("Rr123456!");
+        FirstTest.pause(3);
+        WebElement butonLoginIn=driver.findElement(By.cssSelector("button[name='login']");
+        butonLoginIn.click();
+        FirstTest.pause();
 
 
 
